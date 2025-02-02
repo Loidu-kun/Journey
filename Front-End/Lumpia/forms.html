@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+        <!-- <form></form> this is the tagging for creating a forms -->
+        <!-- <input type=""> this tagging can set what attributes will be set at the Forms -->
+            <!-- <label></label> tagging for text display at input-->
+<body>
+    
+        <form action="action_page.php" method="get">
+                <div>
+                    <label for="fName">First Name:</label> 
+                    <input type="text" id="fName" name="fName" placeholder="Boinkueee" required>
+                </div>  
+                
+                <br>
+
+                <div>
+                    <label for="lName">Last Name:</label> 
+                    <input type="text" id="lName" name="lName" placeholder="Woinkuee" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="password">Password:</label> 
+                    <input type="password" id="password" name="password" placeholder="" maxlength="8" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email:</label> 
+                    <input type="email" id="email" name="email" placeholder="boinku1@gmail.com" maxlength="8" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phone">Phone:</label> 
+                    <input type="tel" id="phone" name="phone" placeholder="(63-) 9090900909" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="date">Date:</label> 
+                    <input type="date" id="date" name="date"  required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="quanty">Quantity:</label> 
+                    <input type="number" id="quanty" name="quanty" min="0" max="99" value="1" required>
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label for="Gender">Gender:</label>
+
+                    <label for="Mr.">Mr.</label>
+                    <input type="radio" id="Mr." name="Gender" value="Mr.">
+
+                    <label for="Mrs.">Mrs.</label>
+                    <input type="radio" id="Mrs." name="Gender" value="Mrs">
+
+                    <label for="Dinosaur">Dinosaur</label>
+                    <input type="radio" id="Dinosaur" name="Gender" value="Dinosaur">
+
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="approve">approve:</label> 
+                    <input type="checkbox" id="approve" name="approve" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="payment">Payment:</label> 
+                    <select id="payment" name="payment" >
+                        <option value="Slavery">Slavery</option>
+                        <option value="Money">Money</option>
+                        <option value="Body">Body</option>
+                    </select>
+                        
+                </div>
+
+                <br>
+
+                <div>
+
+                    <input type="reset">
+                    <input type="submit">
+
+                </div>
+
+        </form>
+
+</body>
+</html>

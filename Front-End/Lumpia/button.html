@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="refresh" content="5">
+    <title>Buttons</title>
+</head>
+
+            <!-- <button></button> this is the tagging to have a buttons on our website/document -->
+                <!-- <button disabled></button> by adding an disable function on the btn, the btn will not function-->
+<body>
+
+    <a href="spanDiv.html" target="_blank">
+        <button style="background-color: blanchedalmond; border-radius: 5px;">Press me</button>
+    </a>
+    <hr>
+    <button onclick="doSomething()">function</button>
+
+    <p id="text"> Working</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("text").innerHTML = "Nice Job";
+        }
+    </script>
+</body>
+</html>
