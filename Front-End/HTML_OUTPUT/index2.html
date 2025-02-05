@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Page3</title>
+</head>
+<body style="background-color: rgba(255, 235, 205, 0.527);">
+    <div >
+        <h1>Hello again,</h1>
+        <p>On this page, I'll be experimenting with some random elements of HTML to refresh and reinforce the fundamental knowledge I've gained. </p>
+        <p><small><i><b>Please Note:</b> The forms displayed below are currently not functioning</i></small></p>
+    </div>
+    <hr>
+    <div>
+        <form action="registerPage.php" method="post">
+            <table style="background-color: rgb(172, 125, 55); width: 60%; margin: 50px auto; border-collapse: collapse; border: 2px solid black; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <tr>
+                    <th colspan="2" style="border-bottom: 2px solid black; padding: 20px; text-align: center; background-color: #a67c2d; color: white; font-size: 24px;">
+                        REGISTRATION FORM
+                    </th>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black; font-size: 18px;">
+                        <label for="fName">Given Name:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="text" name="fName" id="fName" placeholder="Woiku" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="mName">Middle Name:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="text" name="mName" id="mName" placeholder="Oink" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="lName">Last Name:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="text" name="lName" id="lName" placeholder="Boiku" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="age">Age:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="number" name="age" id="age" placeholder="14" min="0" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="gender">Gender:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="Gender" value="Mr.">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="Gender" value="Mrs">
+                        <label for="Dinosaur">Dinosaur</label>
+                        <input type="radio" id="Dinosaur" name="Gender" value="Dinosaur">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="DOB">Date of Birth:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="date" name="DOB" id="DOB" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black;">
+                        <label for="email">Email:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="email" name="email" id="email" placeholder="boinkueWoinku3435@gmail.com" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr style="border-bottom: 2px solid black; ">
+                    <td style="padding: 10px; background-color: #f5f5f5; border-right: 2px solid black; ">
+                        <label for="mobNumber">Mobile Number:</label>
+                    </td>
+                    <td style="padding: 10px; background-color: #ffffff;">
+                        <input type="tel" name="mobNumber" id="mobNumber" placeholder="(63-) 9090900909" required style="width: 97%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td colspan="2" style="padding: 20px; background-color: #f5f5f5; text-align: center;">
+                        <button type="submit" style="background-color: #a67c2d; color: white; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; width: 35%; font-size: 18px;">SUBMIT</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+
+            <a href="index1.html"> 
+                <button style="background-color: rgb(207, 149, 78); border-radius: 5px; width: 100px; height: 30px;" title="next rant please"><b><i>  Back </i></b></button>
+            </a>
+        
+            <a href="endPage.html"> 
+                <button style="background-color: rgb(207, 149, 78); border-radius: 5px; width: 100px; height: 30px;" title="next rant please; "><b><i>  Next </i></b></button>
+            </a>
+            
+        </div>    
+    </div>
+</body>
+</html>
