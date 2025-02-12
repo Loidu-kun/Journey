@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+   }
+
+h3{
+    color: rgb(153, 96, 27);
+}
+
+#ex{
+    background-color: rgb(248, 182, 101);
+}
+
+#ex1{
+    background-color: rgb(255, 173, 73);
+}
+
+#ex2{
+    background-color: rgb(230, 149, 51);
+}
+
+#ex3{
+    background-color: rgb(187, 113, 22);
+}
+
+.odd{
+    color: rgb(141, 97, 43);
+}
+
+.even{
+    color: rgb(75, 56, 34);
+}
