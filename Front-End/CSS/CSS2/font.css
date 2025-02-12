@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(236, 168, 84, 0.836);
+}
+
+h1{
+    color: rgb(138, 78, 5);
+    font-family: "Lobster";
+}
+
+p{
+    color: rgb(83, 48, 5);
+    font-family: "Lobster";
+    font-style: italic;
+    font-weight:lighter;
+    text-decoration: rgb(146, 93, 28) wavy underline;
+    font-size: larger;
+}
