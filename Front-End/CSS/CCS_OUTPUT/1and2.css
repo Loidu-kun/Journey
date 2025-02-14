@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(255, 244, 196, 0.822);
+}
+
+.tula{
+    text-align: center;
+}
+
+h1{
+    font-family: "Lobster";
+    color: rgb(172, 107, 28);
+}
+
+#credits{
+    text-align: end;
+}
