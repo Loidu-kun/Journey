@@ -1,0 +1,23 @@
+body{
+    /* background: linear-gradient(to top, bisque, rgb(189, 133, 65), rgb(199, 110, 2));
+    background-repeat: no-repeat ;
+    background-attachment: fixed; */
+    background-image: url("cofi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    background: linear-gradient(to right, rgb(49, 64, 202),  rgb(199, 110, 2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+p{
+    background: linear-gradient(to left, rgb(118, 45, 136),  rgb(199, 110, 2));
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}
