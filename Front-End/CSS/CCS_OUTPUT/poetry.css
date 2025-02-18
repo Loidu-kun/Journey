@@ -1,6 +1,10 @@
 body{
-     background-color: rgba(255, 244, 196, 0.822); 
-    /* */
+    /*  background-color: rgba(255, 244, 196, 0.822); */
+    background-image: url("cofi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-position: center;
+    background-size: cover;
 }
 
 .tula{
@@ -9,24 +13,29 @@ body{
 
 h1{
     font-family: "Lobster";
-    color: rgb(172, 107, 28);
+    color: rgb(238, 212, 181);
+    text-shadow:
+    1px 1px 0px black,  
+    -1px -1px 0px black,  
+    1px -1px 0px black,  
+    -1px 1px 0px black,  
+    2px 2px 0px black,  
+    -2px -2px 0px black,  
+    2px -2px 0px black,  
+    -2px 2px 0px black; 
 }
 
 .body{
-    background-image: url("Cat_BG.jpeg");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
     font-style: italic;
     font-weight: 600;
-    color: rgb(75, 42, 2);
+    color: rgb(138, 78, 5);
     font-family: "Tahoma";
-    border-style: outset;
-    border-color: rgb(146, 105, 55);
+    border-style: solid;
+    border-color: rgb(172, 151, 126);
     border-width: 5px;
     border-radius: 15px;
-    background-color: rgba(240, 248, 255, 0.842);
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
  
 }
 
