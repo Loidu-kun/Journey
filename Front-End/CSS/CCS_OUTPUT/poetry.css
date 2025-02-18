@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(255, 244, 196, 0.822);
+     background-color: rgba(255, 244, 196, 0.822); 
+    /* */
 }
 
 .tula{
@@ -12,13 +13,20 @@ h1{
 }
 
 .body{
+    background-image: url("Cat_BG.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     font-style: italic;
     font-weight: 600;
     color: rgb(75, 42, 2);
     font-family: "Tahoma";
     border-style: outset;
     border-color: rgb(146, 105, 55);
-    border-width: 20px;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.842);
  
 }
 
