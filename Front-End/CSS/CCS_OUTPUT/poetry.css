@@ -16,6 +16,10 @@ h1{
     font-weight: 600;
     color: rgb(75, 42, 2);
     font-family: "Tahoma";
+    border-style: outset;
+    border-color: rgb(146, 105, 55);
+    border-width: 20px;
+ 
 }
 
 #credits{
