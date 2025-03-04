@@ -17,3 +17,6 @@ img{
 p{
     clear: left;
 }
+img{
+    float: right;
+}
