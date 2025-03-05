@@ -26,6 +26,7 @@ dd{
     height: 40px;
     background-color: #CAF0F8;
     position: fixed;
+    /* text-align: center; */
 }
 
 .body {

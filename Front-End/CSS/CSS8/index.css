@@ -1,0 +1,44 @@
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: tomato;
+}
+
+button:hover{
+    background-color: chartreuse;
+
+}
+
+button:active{
+    background-color: cornflowerblue;
+}
+
+/* M child psuedo class this can be use for like JS wherewe place the value of a variable increment or decrement */
+/* 
+li:nth-child(5){
+    background-color: chocolate;
+} */
+
+
+/* li:nth-child(odd){
+    background-color: darkorchid;
+}
+li:nth-child(even){
+    background-color:darkblue;
+} */
+
+
+/* this example will be use a fformula to pass the argument */
+li:nth-child(2n){
+    background-color:deepskyblue;
+}
