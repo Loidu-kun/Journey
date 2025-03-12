@@ -38,7 +38,7 @@ li:nth-child(even){
 } */
 
 
-/* this example will be use a fformula to pass the argument */
+/* this example will be use a formula to pass the argument */
 li:nth-child(2n){
     background-color:deepskyblue;
 }

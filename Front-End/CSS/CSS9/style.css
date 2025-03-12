@@ -1,0 +1,14 @@
+h1{
+text-shadow: 15px 20px 0px rgb(248, 187, 18), 
+             35px 40px 0px rgb(167, 130, 30);
+/* 3 numbers used in text shadows 
+the first one is for the postioning on the x-axis, where the positive number will move the shadow at the right while a negative will move at the left 
+the second number is for the y-axis, a positive number will move below the text while negative number will be at the above
+teh third number of spread the shadow higher number a wider spread and vise versa*/
+}
+
+h1:hover{
+    /* 
+Box shadow wil appeared around the entire element */
+    box-shadow: 5px 40px 10px bisque;
+}
