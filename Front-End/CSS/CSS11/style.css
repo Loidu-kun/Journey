@@ -1,0 +1,73 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+    font-size: 225px;
+    text-align: center;
+
+    /*  
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-duration: 5s; */
+
+    /* This code will be the shortcut above */
+    animation: 3s linear 0s infinite running mySlide;
+
+    /* Pattern of the code = Duration, timing function, Delay, iteration count, and the variable name of the keyframes rule */
+}
+
+#box1{
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+    font-size: 225px;
+    text-align: center;
+    animation: 3s linear 2s infinite running colorChange;
+    
+
+}
+
+/* #box:hover{
+    animation: 3s linear 2s infinite running mySlide;
+} */
+
+/* #box:active{
+    animation: 3s linear 0s infinite running mySlide;
+
+} */
+
+/* @keyframes - this was used for animations, example below*/
+
+@keyframes mySlide{
+
+    from{margin-left: 0%;}
+    to{ margin-left: 100%;}
+
+}
+
+@keyframes myRotate{
+    100%{transform: rotateX(300deg);}
+    100%{transform: rotateY(300deg);}
+    100%{transform: rotateZ(300deg);}
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+@keyframes colorChange{
+    0%{background-color: red;}
+    20%{background-color: green}
+    4%{background-color: blue}
+    60%{background-color: violet}
+    80%{background-color: yellow}
+    100%{background-color: black}
+}
